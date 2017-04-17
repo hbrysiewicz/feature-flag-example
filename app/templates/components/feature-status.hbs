@@ -1,0 +1,23 @@
+<style>
+  .feature-enabled {
+    background-color: green;
+  }
+  .feature-disabled {
+    background-color: red
+  }
+</style>
+
+<div class="feature-{{if isFooEnabled 'enabled' 'disabled'}}">
+  Feature FOO
+  {{feature-foo}}
+</div>
+
+<div class="feature-{{if isBarEnabled 'enabled' 'disabled'}}">
+  Feature BAR
+  {{feature-bar}}
+</div>
+
+<div class="feature-{{if isBazEnabled 'enabled' 'disabled'}}">
+  Feature BAZ
+  {{feature-baz}}
+</div>

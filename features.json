@@ -1,0 +1,7 @@
+{
+  "features": {
+    "feature-foo": false,
+    "feature-bar": true,
+    "feature-baz": true
+  }
+}
